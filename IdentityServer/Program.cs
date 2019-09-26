@@ -24,6 +24,7 @@ namespace IdentityServer
         {
             return WebHost.CreateDefaultBuilder(args)
                     .UseStartup<Startup>()
+                    .UseUrls("http://localhost:4242/")
                     .UseSerilog((context, configuration) =>
                     {
                         configuration

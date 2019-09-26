@@ -63,3 +63,19 @@
 2019-09-25 18:00:10.989 -07:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
 2019-09-25 18:00:11.001 -07:00 [DBG] Start discovery request
 2019-09-25 18:00:20.518 -07:00 [INF] AuthenticationScheme: idsrv was challenged.
+2019-09-26 12:03:22.136 -07:00 [INF] Starting IdentityServer4 version 2.5.0.0
+2019-09-26 12:03:22.199 -07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-09-26 12:03:22.213 -07:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-09-26 12:03:22.214 -07:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-09-26 12:03:22.214 -07:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-09-26 12:03:22.215 -07:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-09-26 12:03:22.215 -07:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-09-26 12:03:22.215 -07:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-09-26 12:28:45.858 -07:00 [INF] Starting IdentityServer4 version 2.5.0.0
+2019-09-26 12:28:45.908 -07:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-09-26 12:28:45.919 -07:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-09-26 12:28:45.920 -07:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-09-26 12:28:45.920 -07:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-09-26 12:28:45.921 -07:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-09-26 12:28:45.921 -07:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-09-26 12:28:45.922 -07:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid

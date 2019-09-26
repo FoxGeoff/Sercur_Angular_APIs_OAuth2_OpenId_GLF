@@ -20,6 +20,18 @@ namespace IdentityServer
 
         public void ConfigureServices(IServiceCollection services)
         {
+            //CORS
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", corsBuilder =>
+                {
+                    corsBuilder.AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowAnyOrigin()
+                    .AllowCredentials();
+                });
+            });
+
             // uncomment, if you want to add an MVC-based UI
             services.AddMvc().SetCompatibilityVersion(Microsoft.AspNetCore.Mvc.CompatibilityVersion.Version_2_1);
 
@@ -47,6 +59,8 @@ namespace IdentityServer
 
             // uncomment if you want to support static files
             app.UseStaticFiles();
+            //CORS
+             app.UseCors("CorsPolicy");
 
             app.UseIdentityServer();
 
